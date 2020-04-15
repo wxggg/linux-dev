@@ -1,7 +1,7 @@
 %:%.c
 	gcc $^ -o $@
 
-all:recv send
+all:sensor
 
 clean:
-	rm recv send
+	rm sensor
